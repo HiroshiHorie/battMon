@@ -173,7 +173,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
   
   @objc func onTimer() {
-    setVolume(0.2)
+    setVolume(0.8)
     NSSound.glass?.play()
     AudioServicesPlayAlertSound(kSystemSoundID_FlashScreen)
   }
