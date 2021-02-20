@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68DF083B25E0F9BC001EE58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF083A25E0F9BC001EE58A /* AppDelegate.swift */; };
-		68DF083D25E0F9BC001EE58A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF083C25E0F9BC001EE58A /* ContentView.swift */; };
+		68DF083B25E0F9BC001EE58A /* appDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF083A25E0F9BC001EE58A /* appDelegate.swift */; };
 		68DF083F25E0F9BD001EE58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DF083E25E0F9BD001EE58A /* Assets.xcassets */; };
-		68DF084225E0F9BD001EE58A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DF084125E0F9BD001EE58A /* Preview Assets.xcassets */; };
-		68DF084525E0F9BD001EE58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DF084325E0F9BD001EE58A /* Main.storyboard */; };
+		68DF084F25E11E71001EE58A /* sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF084E25E11E71001EE58A /* sounds.swift */; };
+		68DF085725E120E2001EE58A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF085625E120E2001EE58A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68DF083725E0F9BC001EE58A /* osMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68DF083A25E0F9BC001EE58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68DF083C25E0F9BC001EE58A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68DF083725E0F9BC001EE58A /* battMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = battMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DF083A25E0F9BC001EE58A /* appDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appDelegate.swift; sourceTree = "<group>"; };
 		68DF083E25E0F9BD001EE58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		68DF084125E0F9BD001EE58A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		68DF084425E0F9BD001EE58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68DF084625E0F9BD001EE58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68DF084725E0F9BD001EE58A /* osMon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = osMon.entitlements; sourceTree = "<group>"; };
+		68DF084725E0F9BD001EE58A /* battMon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = battMon.entitlements; sourceTree = "<group>"; };
+		68DF084E25E11E71001EE58A /* sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sounds.swift; sourceTree = "<group>"; };
+		68DF085625E120E2001EE58A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +37,7 @@
 		68DF082E25E0F9BC001EE58A = {
 			isa = PBXGroup;
 			children = (
-				68DF083925E0F9BC001EE58A /* osMon */,
+				68DF083925E0F9BC001EE58A /* battMon */,
 				68DF083825E0F9BC001EE58A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,39 +45,30 @@
 		68DF083825E0F9BC001EE58A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68DF083725E0F9BC001EE58A /* osMon.app */,
+				68DF083725E0F9BC001EE58A /* battMon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68DF083925E0F9BC001EE58A /* osMon */ = {
+		68DF083925E0F9BC001EE58A /* battMon */ = {
 			isa = PBXGroup;
 			children = (
-				68DF083A25E0F9BC001EE58A /* AppDelegate.swift */,
-				68DF083C25E0F9BC001EE58A /* ContentView.swift */,
+				68DF083A25E0F9BC001EE58A /* appDelegate.swift */,
 				68DF083E25E0F9BD001EE58A /* Assets.xcassets */,
-				68DF084325E0F9BD001EE58A /* Main.storyboard */,
 				68DF084625E0F9BD001EE58A /* Info.plist */,
-				68DF084725E0F9BD001EE58A /* osMon.entitlements */,
-				68DF084025E0F9BD001EE58A /* Preview Content */,
+				68DF084725E0F9BD001EE58A /* battMon.entitlements */,
+				68DF084E25E11E71001EE58A /* sounds.swift */,
+				68DF085625E120E2001EE58A /* main.swift */,
 			);
-			path = osMon;
-			sourceTree = "<group>";
-		};
-		68DF084025E0F9BD001EE58A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				68DF084125E0F9BD001EE58A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = battMon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68DF083625E0F9BC001EE58A /* osMon */ = {
+		68DF083625E0F9BC001EE58A /* battMon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68DF084A25E0F9BD001EE58A /* Build configuration list for PBXNativeTarget "osMon" */;
+			buildConfigurationList = 68DF084A25E0F9BD001EE58A /* Build configuration list for PBXNativeTarget "battMon" */;
 			buildPhases = (
 				68DF083325E0F9BC001EE58A /* Sources */,
 				68DF083425E0F9BC001EE58A /* Frameworks */,
@@ -89,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = osMon;
+			name = battMon;
 			productName = osMon;
-			productReference = 68DF083725E0F9BC001EE58A /* osMon.app */;
+			productReference = 68DF083725E0F9BC001EE58A /* battMon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68DF083225E0F9BC001EE58A /* Build configuration list for PBXProject "osMon" */;
+			buildConfigurationList = 68DF083225E0F9BC001EE58A /* Build configuration list for PBXProject "battMon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68DF083625E0F9BC001EE58A /* osMon */,
+				68DF083625E0F9BC001EE58A /* battMon */,
 			);
 		};
 /* End PBXProject section */
@@ -131,8 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DF084525E0F9BD001EE58A /* Main.storyboard in Resources */,
-				68DF084225E0F9BD001EE58A /* Preview Assets.xcassets in Resources */,
 				68DF083F25E0F9BD001EE58A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,23 +131,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DF083D25E0F9BC001EE58A /* ContentView.swift in Sources */,
-				68DF083B25E0F9BC001EE58A /* AppDelegate.swift in Sources */,
+				68DF084F25E11E71001EE58A /* sounds.swift in Sources */,
+				68DF083B25E0F9BC001EE58A /* appDelegate.swift in Sources */,
+				68DF085725E120E2001EE58A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		68DF084325E0F9BD001EE58A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68DF084425E0F9BD001EE58A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		68DF084825E0F9BD001EE58A /* Debug */ = {
@@ -283,18 +260,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = osMon/osMon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = battMon/battMon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"osMon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = osMon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/battMon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = unx.pe.osMon;
+				PRODUCT_BUNDLE_IDENTIFIER = unx.pe.battMon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -305,18 +281,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = osMon/osMon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = battMon/battMon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"osMon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = osMon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/battMon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = unx.pe.osMon;
+				PRODUCT_BUNDLE_IDENTIFIER = unx.pe.battMon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -325,7 +300,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68DF083225E0F9BC001EE58A /* Build configuration list for PBXProject "osMon" */ = {
+		68DF083225E0F9BC001EE58A /* Build configuration list for PBXProject "battMon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68DF084825E0F9BD001EE58A /* Debug */,
@@ -334,7 +309,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68DF084A25E0F9BD001EE58A /* Build configuration list for PBXNativeTarget "osMon" */ = {
+		68DF084A25E0F9BD001EE58A /* Build configuration list for PBXNativeTarget "battMon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68DF084B25E0F9BD001EE58A /* Debug */,
